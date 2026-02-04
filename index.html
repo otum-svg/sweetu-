@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A Special Message for You ✨</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container" id="card">
+        <div id="ask-content">
+            <img src="cat-cute.gif" class="anime-gif" id="display-gif">
+            <h1 id="main-text">I've been practicing my confession... <br> Will you be my Valentine? 🌸</h1>
+            <p id="sub-text">Every "No" makes my heart grow (literally)!</p>
+            
+            <div class="btn-container">
+                <button style="z-index: 4;" id="yesBtn" onclick="celebrate()">YES! ✨</button>
+                <button style="z-index: 3;" id="noBtn" onclick="handleNo()">No</button>
+            </div>
+        </div>
+
+        <div id="success-content" class="hidden">
+            <img src="love-you.gif" class="anime-gif">
+            <h1 id="success-title">KNEW IT! 💓😊💓</h1>
+            <div id="wishes-container"></div>
+            <button id="nextBtn" onclick="showNext()">Next</button>
+        </div>
+
+        <div id="next-content" class="hidden">
+            <h1 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">MY LOVE💕</h1>
+            <div class="photos">
+                <img src="11.png" alt="Memory 1">
+            </div>
+            <div class="love-letter">
+                <h2 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">💌🎀MY POOKIE🎀💌</h2>
+                <p>From the moment I met you, my life has been filled with joy and happiness. You are my everything, my heart, my soul. I love you more than words can express.😚💗💗🫶</p>
+                <p><i>Forever yours,</i></p>
+                <p><i>Your Valentine</i></p>
+               <p><i> Go & Massage me! "Yes"</i></p>
+          </div>
+        </div>
+    </div>
+        <script src="script.js"></script>
+</body>
+</html>
